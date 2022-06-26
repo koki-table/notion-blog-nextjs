@@ -47,7 +47,7 @@ export default function Home({ posts }) {
               </g>
             </svg>
           </div>
-          <h1>Next.js blog powered by Notion API</h1>
+          <h1>My blog</h1>
           <p>
             This is an example of a Next.js blog with data fetched with Notions
             API. The data comes from{" "}
