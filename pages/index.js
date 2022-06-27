@@ -17,7 +17,7 @@ export default function Home({ posts }) {
       <main className={styles.container}>
         <header className={styles.header}>
           <div className={styles.logos}>
-            <svg
+            {/* <svg
               height="80"
               width="80"
               xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +28,16 @@ export default function Home({ posts }) {
                 fillRule="evenodd"
                 fill="currentColor"
               />
+            </svg> */}
+
+            <svg
+              height="80"
+              width="80"
+              viewBox="0 0 372.67 95.36" xmlns="http://www.w3.org/2000/svg">
+              <text font-family="Audiowide-Regular, Audiowide" font-size="84" transform="translate(0 71.41)">Lobbing</text>
             </svg>
-            <span className={styles.plus}>+</span>
+
+            {/* <span className={styles.plus}>+</span>
             <svg
               width="133px"
               height="80px"
@@ -45,7 +53,7 @@ export default function Home({ posts }) {
                   fillRule="nonzero"
                 ></path>
               </g>
-            </svg>
+            </svg> */}
           </div>
           <h1>My blog</h1>
           <p>
@@ -86,6 +94,7 @@ export default function Home({ posts }) {
                 </h3>
 
                 <p className={styles.postDescription}>{date}</p>
+
                 <Link href={`/${post.id}`}>
                   <a> Read post →</a>
                 </Link>

@@ -7,7 +7,8 @@
 .logos {
   display: flex;
   align-items: center;
-  padding: 40px 0 20px;
+  padding: 0 0 0;
+  justify-content: center;
 }
 
 .header {
